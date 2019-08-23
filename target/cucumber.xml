@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="15.203951">
+<testcase classname="Login feature" name="Successful Login with Valid Credentials" time="8.557821">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters "batman" and "batman".......................................passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Successful Login with Valid Credentials 2" time="6.645491">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters "batman" and "batman".......................................passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Successful LogOut" time="0.000639">
+<system-out><![CDATA[When User LogOut from the Application.......................................passed
+Then Message displayed LogOut Successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
