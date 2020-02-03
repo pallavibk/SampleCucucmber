@@ -30,8 +30,8 @@ public class ParmeterisingwithoutExample
 				"C:\\Programs\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
-		driver.findElement(By.name("userName")).sendKeys("arg1");
-		driver.findElement(By.name("password")).sendKeys("arg2");
+		driver.findElement(By.name("userName")).sendKeys(arg1);
+		driver.findElement(By.name("password")).sendKeys(arg2);
 		driver.findElement(By.name("login")).click();
 	    
 	}
